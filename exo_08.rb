@@ -1,4 +1,3 @@
-puts "Ton prénom ?"
-puts "> "
-user_name = gets.chomp
-puts "Bonjour, " + user_name
+puts "Nombre ?"
+num = gets.chomp.to_i
+num.downto(0){|i| puts i}

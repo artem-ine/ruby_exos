@@ -1,2 +1,3 @@
-puts "Bonjour, monde !"
-# puts "Et avec une voix sexy, ça donne : Bonjour, monde !"
+puts "Quelle est ton année de naissance ?"
+birth = gets.chomp.to_i
+puts "D'accord. Tu avais donc #{2017 - birth} ans en 2017." 

@@ -1,5 +1,3 @@
-puts "Ton prénom ?"
-user_name = gets.chomp
-puts "Ton nom de famille ?"
-user_ndf = gets.chomp
-puts "Bonjour, " + user_name + " " + user_ndf
+puts "Année de naissance ?"
+num = gets.chomp.to_i
+num.upto(2023){|i| puts i}
