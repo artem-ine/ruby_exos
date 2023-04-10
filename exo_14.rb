@@ -19,3 +19,12 @@ two_digits.upto(50) do |two_digits|
     array.push(new_mail)
     two_digits + 1
 end
+
+n = 0
+
+n.upto(50) do |n|
+    if n % 2 == 1
+        puts array[n]
+    n + 1
+    end
+end
