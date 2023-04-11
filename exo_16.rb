@@ -4,6 +4,8 @@ floors = gets.chomp.to_i
 
 puts "Voici la pyramide :"
 
-floors.times do |i|
-    puts "#" * (i + 1)
+n = 1
+while n <= floors
+  puts ("#" * n).rjust(floors)
+  n += 1
 end
